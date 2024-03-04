@@ -1,0 +1,164 @@
+*{margin: 0%;}
+
+header{
+    position:fixed;
+    width: 100%;
+    top:0%;
+    display: flex;
+    font-family: "Skranji", system-ui;
+    justify-content: center;
+    background: url(imagenes/headerbackgr.png) no-repeat;
+    padding: 15px;
+    background-size: cover;
+    z-index: 1;
+}
+
+#logo{
+    width: 170px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 30%;
+    }
+
+
+    header ul li{ 
+        font-family: "Skranji", system-ui;
+        font-size:large;
+        justify-content: center;
+        }
+        
+
+header nav ul li{ 
+    display: inline-flex;
+    justify-content: center; 
+}
+
+
+    nav ul li{
+        margin: 60px;
+        align-items: center;
+        display: flexbox;
+        justify-content: space-around;
+        font-size: large;
+        width: 100%;
+    
+    }
+
+
+
+
+
+
+
+
+    body nav h1{
+    display: flex;
+    font-family: "Skranji", system-ui;
+    background-color: #c473b3f3;
+    color: antiquewhite;
+    margin-top: 320px;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding: 2%;
+    }
+
+h4{
+    justify-content: center; 
+    margin: 0%;
+    font-family: "Skranji", system-ui; 
+    margin-block: 90px;
+    justify-items: center;
+}
+    
+nav ul{
+        display: flex;
+        margin: 60px;
+        list-style: none;
+    }
+
+#dibujo{display: flex; 
+    border: #FFF3C3; 
+    justify-content: center; 
+    margin-bottom: -5%;}
+
+
+.primero{
+    background-image: url(imagenes/nubesfondo.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: "Skranji", system-ui; 
+    font-size: small;  
+    text-align: justify; 
+    padding: 3%;
+    margin-bottom: -8%;
+}
+    
+.encabezado{
+        justify-content: space-around; 
+        align-items: center; 
+        text-align: justify;
+        color: black;
+        padding: 5px 5px 5px 5px;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    
+h3{ font-size: xx-large;
+    display: flex;
+    font-family: "Skranji", system-ui;
+    background-color: #FFF3C3;
+    justify-content: center;
+    padding: 3%;
+    margin-bottom: 0%;
+}
+
+    .parrafo2{
+        margin-top: -1%;
+        background-color: #FFF3C3; 
+        padding: 2%;
+        font-size: larger;
+        font-family: "Skranji", system-ui;
+        color:black;
+    }
+        
+    #entrevistas {display:flex center; background-color: #FFF3C3; margin-top: -6%; padding: 1%; margin-bottom: 1px;}
+
+    .escritoresfavs{padding: 50px; display: flex; flex-direction: column; justify-content: center; background-color: #A7B8CA;}
+
+    #escritorxss{background-color: #A7B8CA;display: flex; justify-content: center; align-items: center; padding: 2%; font-family: "Skranji", system-ui;}
+
+.atenea{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 40%; margin: auto; font-size: medium; background-color: #A7B8CA; font-family: "Skranji", system-ui;}
+
+.jas{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 40%; margin: auto; font-size: medium; background-color: #A7B8CA;}
+
+.rivapalacio{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 40%; margin: auto; font-size: medium; background-color: #A7B8CA;}
+
+
+.gaiman{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 40%; margin: auto; font-size: medium; background-color: #A7B8CA;}
+
+.autor{font-family: 'Trebuchet MS', 'Lucida Sans Unicode'; background-color: #A7B8CA; margin-top: 30px; justify-content: space-around; text-align: justify;}
+
+.galeria{background-color: #FFFDDB;display: flex; justify-content: center; align-items: center; padding: 2%; margin-bottom: -2%;}
+
+#carouselExampleCaptions{ padding: 3%;
+    max-width: 1000px; max-height: 1000px; justify-content: center; margin: auto;}
+
+.carousel-item active{display: flex; justify-content: center;}
+
+.carousel-item h5{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgba(79, 87, 192, 0.747);color: rgb(255, 255, 255);}
+
+.carousel-item p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgba(79, 87, 192, 0.747);color: rgb(255, 255, 255);}
+
+
+footer ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #EC8BC7;
+        font-family: "Skranji", system-ui;
+        font-size: medium;
+        margin-bottom: 0%;
+        margin-top: 4%;
+    }
